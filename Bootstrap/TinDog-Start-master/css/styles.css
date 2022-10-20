@@ -1,0 +1,178 @@
+
+body{
+font-family: "Montserrat";
+text-align:center;
+}
+
+#title{
+text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+/* Heading */
+
+.big-heading{
+  color:#fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding:4% 7% 15% 15%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+font-family: "Ubuntu";
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/* Download Buttons */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  transform: rotate(25deg);
+  width:50%;
+  right:25%;
+  position:absolute;
+}
+
+/* Features Section */
+#features{
+  position:relative;
+  margin:0 5%;
+}
+
+.fa-solid{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.fa-solid:hover{
+  color:#ff4c68;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-text{
+  color:#8f8f8f;
+}
+
+.features-box{
+  padding:5% 1%;
+}
+
+/* Testimonials */
+#testimonials, #press{
+  background-color: #ef8172;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+
+.testimonial-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+#press{
+  padding-bottom:3%;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding:100px;
+}
+
+.pricing-column {
+  padding:3% 2%;
+}
+
+.price-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform:rotate(0);
+  }
+}
+
+/* Call to Action */
+
+#cta{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  padding:7% 15%;
+}
+
+.cta-download-button{
+  margin-top:2%;
+  margin:5% 3% 5% 0;
+}
+
+#footer{
+  padding:5% 15%;
+  font-size: 1rem;
+}
+
+.icon-footer{
+  margin:20px 10px;
+}
